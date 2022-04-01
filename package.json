@@ -1,0 +1,20 @@
+{
+  "name": "javimenabot",
+  "version": "1.0.0",
+  "description": "Bot que publica letra de canciones de Javiera Mena en Twitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot",
+    "twitter"
+  ],
+  "author": "Yerson Olivares y René Crisóstomo",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "twit": "^2.2.11"
+  }
+}
