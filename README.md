@@ -1,4 +1,4 @@
-# javimena_bot
+# javimenabot
 
 Este bot de Twitter publica cada día al mediodía una frase de alguna canción de [Javiera Mena](https://twitter.com/javieramena).
 
