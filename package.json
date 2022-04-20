@@ -14,6 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.26.1",
+    "bree": "^8.0.3",
     "dotenv": "^16.0.0",
     "twit": "^2.2.11"
   }
