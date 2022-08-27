@@ -23,7 +23,7 @@ const client = new Twit({
   access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
 });
 
-const postTweet = async () => {
+(async () => {
   client.post(
     "statuses/update",
     { status: await fraseRandom() },
@@ -35,7 +35,4 @@ const postTweet = async () => {
       }
     }
   );
-};
-
-postTweet();
-setInterval(postTweet, 86400000);
+})();
